@@ -16,8 +16,8 @@ config.debug = true; // for additional logging / debugging
 config.watch = {
 
   // see https://gekko.wizb.it/docs/introduction/supported_exchanges.html
-  exchange: 'binance',
-  currency: 'USDT',
+  exchange: 'bitfinex',
+  currency: 'USD',
   asset: 'BTC',
 }
 
@@ -359,8 +359,8 @@ config.backtest = {
 config.importer = {
   daterange: {
     // NOTE: these dates are in UTC
-    from: "2017-11-01 00:00:00",
-    to: "2017-11-20 00:00:00"
+    from: "2020-03-05 00:00:00",
+    to: "2020-03-11 00:00:00"
   }
 }
 

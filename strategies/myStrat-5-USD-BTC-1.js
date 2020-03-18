@@ -204,7 +204,7 @@ strat.check = function(candle) {
                 console.log(this.counterSell);
                 /****************************************************************************************************************/
                 //condition
-                if(this.percentBetweenPriceAndMa > 2 ){
+                if(this.percentBetweenPriceAndMa > 1 ){
                   //SHORT position !!!
                   requestOrder.sell(this,requestApp);
                 }

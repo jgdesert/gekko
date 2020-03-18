@@ -4,7 +4,8 @@ services:
     image: gekko:latest
     build: ./
     volumes:
-      - /root/history:/usr/src/app/history
+      - /root/gekkoImport/history:/usr/src/app/history
+      - /root/strategies:/usr/src/app/strategies
       - ./config.js:/usr/src/app/config.js
     links:
       - redis
